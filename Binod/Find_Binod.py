@@ -7,7 +7,7 @@ def isBinod(filename):
         filecontent = f.read()
     if 'binod' in filecontent.lower():
         return True
-        n+=1
+        n = n + 1
     else:
         return False
 
