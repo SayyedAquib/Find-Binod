@@ -20,7 +20,7 @@ for item in dir_contents :
             print(f'Binod found in {item}')
             nBinod += 1
         else :
-            print(f'Binod is not found in {item}')
+            print(f'Binod_is_not_found_in_{item}')
         
 print("\n****Find Binod Summary****")
 print(f'{nBinod} files found with Binod into it!!!')
